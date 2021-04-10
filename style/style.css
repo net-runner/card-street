@@ -271,10 +271,13 @@ h1 {
     width: 2em;
     height: 1.8em;
 } */
+.flag {
+    margin: 0.2em;
+}
 
-/* .flag:first-of-type {
+.flag:first-of-type {
     padding-left: 3px;
-} */
+}
 
 
 .splitone {
@@ -410,6 +413,7 @@ h1 {
 
 .game-main-row {
     flex-direction: row;
+    align-items: stretch;
     height: 100%;
     margin-top: 2em;
     height: auto;
@@ -421,9 +425,8 @@ h1 {
 }
 
 .game-column {
-    display: inline;
-    height: 100%;
-    align-self: flex-start;
+    flex-direction: column;
+    align-self: stretch;
     border-radius: 2em;
     flex: 1;
     box-shadow: inset 21px 21px 30px #1d1f20,
@@ -698,6 +701,10 @@ img {
         overflow: hidden;
     }
 
+    .game-header-row {
+        width: 80vw;
+    }
+
     .footer>svg {
         fill: var(--bgh);
 
@@ -705,6 +712,11 @@ img {
 
     .gsc {
         padding: 1em;
+    }
+
+    img {
+        width: 25px;
+        height: 20px;
     }
 
     .players-svg-container {
@@ -717,6 +729,13 @@ img {
         font-size: 20px;
         font-weight: 100;
 
+    }
+
+    .game_container {
+        width: 100vw;
+        padding: 0;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 
     .deck-svg-container {
