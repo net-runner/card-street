@@ -3,7 +3,9 @@
 <h1>Card Street</h1>
 </div>
 
-HTML, JS, CSS site about card games. Provides quick access on various card game rules.
+HTML, JS, CSS site about card games. Provides quick access on various card game rules. Featuring Neumorphism design and SVG waves.
+
+
 
 ### [Preview](https://card-street.netlify.app)
 
